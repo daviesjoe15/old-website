@@ -1,0 +1,321 @@
+//SELECTORS//
+
+$color-dark: #424242;
+$color-light: white;
+$color-grey-01: #E0E0E0;
+$color-grey-02: #B7B7B7;
+
+
+$space-xxl: 256px;
+$space-xl: 128px;
+$space-l: 64px;
+$space-m: 24px;
+$space-s: 16px;
+$space-xs: 8px;
+
+$border-radius-s: 4px;
+$border-radius-m: 8px;
+
+$max_width: 768px;
+
+$shadow: 1px 1px $space-s $color-grey-01;
+
+$def_transition: 0.15s;
+
+$border: 1px solid $color-grey-01;
+
+
+//BODY//
+
+body {
+    margin: 0px;
+}
+
+
+//TYPE//
+
+h1, h2, h3, p, figcaption {
+    color: $color-dark;
+    font-family: 'Roboto',sans-serif;
+    font-weight: inherit;
+}
+
+
+h1 {
+    font-size: 3em;
+    line-height: 56px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.7em;
+    line-height: 40px;
+    margin: 0px;
+    padding-top: $space-m;
+}
+
+h3, p, .btn, a {
+    font-family: 'Lato', sans-serif;
+    font-weight: regular;
+    font-size: 1em;
+    line-height: 32px;
+    margin: 0px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: $color-grey-02;
+    padding-bottom: $space-s;
+}
+
+a {
+    color: $color-dark;
+    text-decoration: inherit;
+    transition: $def_transition;
+}
+
+figcaption {
+    text-align: center;
+    color: $color-grey-02;
+    font-size: 0.9em;
+}
+
+.btn {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding-right: $space-xs;
+    padding-left: $space-xs;
+    border-radius: $border-radius-s;
+    border: $border;
+    background-color: white;
+    font-size: 0.9em;
+    
+    &.btn:hover{
+    box-shadow: 1px 1px $space-xs $color-grey-01;
+    }
+} 
+
+.link {
+    text-decoration: underline;
+    
+    &.link:hover {
+    color: black;
+    }
+}
+
+
+//WRAPPER//
+
+.wrapper{
+    margin: auto;
+    max-width: $max_width;
+    padding: 0px 24px;
+}
+
+
+//NAV//
+
+.topnav {
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgba(255,255,255, 0.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: $space-xs;
+    padding-top: $space-xs;
+    border-bottom: $border;
+    
+    a {
+    float: left;
+    text-align: center;
+    padding: 0px 4px;
+    }
+    
+    a:last-child {
+    float: right;
+    text-decoration: none;
+    }
+}
+
+.inner_nav {
+    max-width: $max_width;
+    margin: auto;
+    padding: 4px $space-m;
+}
+
+
+//INTRO//
+
+.intro {
+    margin-top: $space-xxl;
+}
+
+
+//ABOUT ME//
+
+.about_me {
+    margin-top: $space-xxl;
+    
+    h1{
+    margin-top: $space-m;
+    }
+    
+    img{
+    width: 100%;
+    }
+}
+
+
+//WORK//
+
+.work {
+    margin-top: $space-xl;
+    text-decoration: none;
+    
+    .project {
+    margin-bottom: $space-l;
+    }
+}
+
+
+
+//PROJECT//
+
+.project {
+    
+    border: $border;
+    border-radius: $border-radius-m;
+    transition: $def-transition;
+    
+    p {
+        padding-top:    $space-s;
+        padding-bottom: $space-m;
+    }
+    
+    h2, p {
+        margin: 0px;
+        padding-left:   $space-m;
+        padding-right:  $space-m;
+    }
+    
+    img {
+        object-fit: cover;
+        border-radius: 7px 7px 0px 0px;
+        width: 100%;
+        max-height: 350px;
+        border-bottom: $border;
+    }
+    
+    &:hover {
+        box-shadow: $shadow;
+        transform: translate(0px, -2px);
+    }
+}
+
+
+//CONTACT//
+
+.contact {
+    margin-top: $space-xl;
+    
+    img {
+    width: 100%;
+    }
+}
+
+
+//FOOTER//
+
+footer a {
+    padding-top: $space-m;
+    padding-bottom: $space-m;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+    &:hover {
+    background-color: $color-grey-01;
+    }
+}
+
+
+//ARTICLE//
+
+.article {
+    margin-top: $space-xl;
+    margin-bottom: $space-xl;
+    max-width: $max-width;
+    
+    h1, h2, p{
+    padding-bottom: $space-s;
+    }
+    
+    p {
+        font-size: 1.1em;
+    }
+    
+    h2 {
+    padding-top: $space-l;
+    font-weight: 800;
+    }
+    
+    img {
+    object-fit: contain;
+    width: 100%;
+    margin: auto;
+    max-height: 450px;
+    display: block;
+    margin-top: $space-m;
+    margin-bottom: $space-m;
+    } 
+}
+
+
+//NEXT PROJECT//
+
+.next_project {
+    display: flex;
+    flex-direction: row;
+    
+    h2 {
+    font-size: 1.4em;
+    padding-top: $space-xs;
+    padding-bottom: $space-xs;
+    }
+    
+    a:last-child {
+    display: none;
+    }
+    
+    .project {
+    margin-top: $space-m;
+    width: inherit;
+    flex-grow: 1;
+    flex-basis: 0;
+    }
+}
+
+
+//SCREEN SIZES//
+
+@media screen and (min-width: 600px){
+    
+    .contact {
+        padding-bottom: 100px;
+    }  
+    .contact img, .about_me img {
+        width: auto;
+        float: right;
+    }  
+    .intro{
+        padding-left: 10%;
+    }
+    .next_project a:last-child {
+        display: flex;
+        padding-left: $space-l;
+    }
+}
