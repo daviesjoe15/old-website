@@ -1,5 +1,6 @@
 //SELECTORS//
 
+$color-primary: lightskyblue;
 $color-dark: #424242;
 $color-light: white;
 $color-grey-01: #E0E0E0;
@@ -99,10 +100,10 @@ figcaption {
 } 
 
 .link {
-    text-decoration: underline;
+    color: $color-primary;
     
     &.link:hover {
-    color: black;
+    text-decoration: underline; 
     }
 }
 
