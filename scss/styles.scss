@@ -8,7 +8,7 @@ $color-grey-02: #B7B7B7;
 
 
 $space-xxl: 256px;
-$space-xl: 128px;
+$space-xl: 128px; 
 $space-l: 64px;
 $space-m: 24px;
 $space-s: 16px;
@@ -91,7 +91,7 @@ figcaption {
     padding-left: $space-xs;
     border-radius: $border-radius-s;
     border: $border;
-    background-color: white;
+    background-color: $color-light;
     font-size: 0.9em;
     
     &.btn:hover{

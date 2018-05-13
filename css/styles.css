@@ -55,9 +55,9 @@ figcaption {
     box-shadow: 1px 1px 8px #E0E0E0; }
 
 .link {
-  text-decoration: underline; }
+  color: lightskyblue; }
   .link.link:hover {
-    color: black; }
+    text-decoration: underline; }
 
 .wrapper {
   margin: auto;
