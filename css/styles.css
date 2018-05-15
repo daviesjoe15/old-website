@@ -138,6 +138,13 @@ footer a {
   footer a:hover {
     background-color: #E0E0E0; }
 
+.fun {
+  position: fixed;
+  bottom: -24px;
+  right: 16px; }
+  .fun p {
+    color: #B7B7B7; }
+
 .article {
   margin-top: 128px;
   margin-bottom: 128px;
