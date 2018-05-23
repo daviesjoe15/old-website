@@ -184,14 +184,14 @@ footer a {
 @media screen and (min-width: 600px) {
   .project {
     height: 256px; }
-    .project img {
-      width: 256px;
-      height: 100%;
-      float: left;
-      border-radius: 7px 0px 0px 7px;
-      border-bottom: none;
-      border-right: 1px solid #E0E0E0;
-      margin-right: 24px; }
+  .project img {
+    width: 256px;
+    height: 100%;
+    float: left;
+    border-radius: 7px 0px 0px 7px;
+    border-bottom: none;
+    border-right: 1px solid #E0E0E0;
+    margin-right: 24px; }
   .contact {
     padding-bottom: 100px; }
   .contact img, .about_me img {

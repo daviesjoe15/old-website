@@ -329,7 +329,8 @@ footer a {
     .project {
         
         height: $space-xxl;
-        img {
+    }
+    .project img {
             width: $space-xxl;
             height: 100%;
             float: left;
@@ -337,7 +338,6 @@ footer a {
             border-bottom: none;
             border-right: $border;
             margin-right: $space-m;
-        }
     }
     
     .contact {
