@@ -19,7 +19,8 @@ $border-radius-m: 8px;
 
 $max_width: 768px;
 
-$shadow: 1px 1px $space-s $color-grey-01;
+$shadow: 1px 1px $space-s $color-grey-02;
+$shadow_2: 0px 1px 2px $color-grey-02;
 
 $def_transition: 0.15s;
 
@@ -199,7 +200,7 @@ figcaption {
     border: $border;
     border-radius: $border-radius-m;
     transition: $def-transition;
-    
+    box-shadow: $shadow_2;
     
     p {
         padding-top:    $space-s;

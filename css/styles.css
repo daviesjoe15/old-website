@@ -112,7 +112,8 @@ figcaption {
 .project {
   border: 1px solid #E0E0E0;
   border-radius: 8px;
-  transition: 0.15s; }
+  transition: 0.15s;
+  box-shadow: 0px 1px 2px #B7B7B7; }
   .project p {
     padding-top: 16px;
     padding-bottom: 24px; }
@@ -127,7 +128,7 @@ figcaption {
     max-height: 400px;
     border-bottom: 1px solid #E0E0E0; }
   .project:hover {
-    box-shadow: 1px 1px 16px #E0E0E0;
+    box-shadow: 1px 1px 16px #B7B7B7;
     transform: translate(0px, -2px); }
 
 .contact {
