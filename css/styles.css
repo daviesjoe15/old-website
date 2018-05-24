@@ -1,7 +1,7 @@
 body {
   margin: 0px; }
 
-h1, h2, h3, p, figcaption {
+h1, h2, figcaption {
   color: #424242;
   font-family: 'Roboto',sans-serif;
   font-weight: inherit; }
@@ -18,7 +18,8 @@ h2 {
   margin: 0px;
   padding-top: 24px; }
 
-h3, p, .btn, a {
+h3, p, .btn, a, li {
+  color: #424242;
   font-family: 'Lato', sans-serif;
   font-weight: regular;
   font-size: 1em;

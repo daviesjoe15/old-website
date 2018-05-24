@@ -35,7 +35,7 @@ body {
 
 //TYPE//
 
-h1, h2, h3, p, figcaption {
+h1, h2, figcaption {
     color: $color-dark;
     font-family: 'Roboto',sans-serif;
     font-weight: inherit;
@@ -56,7 +56,8 @@ h2 {
     padding-top: $space-m;
 }
 
-h3, p, .btn, a {
+h3, p, .btn, a, li {
+    color: $color-dark;
     font-family: 'Lato', sans-serif;
     font-weight: regular;
     font-size: 1em;
