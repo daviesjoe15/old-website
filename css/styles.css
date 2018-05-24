@@ -54,13 +54,13 @@ figcaption {
   .btn.btn:hover {
     box-shadow: 1px 1px 8px #E0E0E0; }
 
-.link_ext {
+.ext_link {
   color: #2F80ED; }
 
 .link {
   color: #424242; }
 
-.link:hover, .link_ext:hover {
+.link:hover, .ext_link:hover {
   text-decoration: underline; }
 
 .wrapper {
