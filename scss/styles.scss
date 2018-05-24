@@ -99,12 +99,16 @@ figcaption {
     }
 } 
 
-.link {
+.link_ext {
     color: $color-primary;
-    
-    &.link:hover {
-    text-decoration: underline; 
-    }
+}
+
+.link {
+    color: $color-dark;
+}
+
+.link:hover, .link_ext:hover{
+    text-decoration: underline;
 }
 
 
