@@ -20,9 +20,9 @@ $border-radius-m: 8px;
 $max_width: 768px;
 
 $shadow: 1px 1px $space-s $color-grey-02;
-$shadow_2: 0px 1px 2px $color-grey-02;
+$shadow-2: 0px 1px 2px $color-grey-02;
 
-$def_transition: 0.15s;
+$def-transition: 0.15s;
 
 $border: 1px solid $color-grey-01;
 
@@ -76,7 +76,7 @@ h3 {
 a {
     color: $color-dark;
     text-decoration: inherit;
-    transition: $def_transition;
+    transition: $def-transition;
 }
 
 figcaption {
@@ -200,7 +200,9 @@ figcaption {
     border: $border;
     border-radius: $border-radius-m;
     transition: $def-transition;
-    box-shadow: $shadow_2;
+    box-shadow: $shadow-2;
+    overflow: hidden;
+    text-overflow: ellipsis;
     
     p {
         padding-top:    $space-s;
