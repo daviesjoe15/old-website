@@ -195,6 +195,11 @@ footer a {
   .project {
     overflow: hidden;
     height: 256px; }
+  .project h3 {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 24px; }
   .project img {
     width: 256px;
     height: 100%;
@@ -212,11 +217,6 @@ footer a {
     padding-left: 10%; }
   .next_project a:last-child {
     display: flex;
-    padding-left: 64px; }
-  .project h3 {
-    display: block;
-    position: absolute;
-    top: 24px;
-    right: 24px; } }
+    padding-left: 64px; } }
 
 /*# sourceMappingURL=styles.css.map */

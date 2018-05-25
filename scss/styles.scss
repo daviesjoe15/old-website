@@ -343,6 +343,13 @@ footer a {
         height: $space-xxl;
     }
     
+     .project h3 {
+        display: block;
+        position: absolute;
+        top: $space-m;
+        right: $space-m;
+    }
+    
     .project img {
             width: $space-xxl;
             height: 100%;
@@ -368,10 +375,4 @@ footer a {
         padding-left: $space-l;
     }
     
-    .project h3 {
-        display: block;
-        position: absolute;
-        top: $space-m;
-        right: $space-m;
-    }
 }
