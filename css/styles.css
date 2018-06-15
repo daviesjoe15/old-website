@@ -18,7 +18,7 @@ h2 {
   margin: 0px;
   padding-top: 24px; }
 
-h3, p, .btn, a, li {
+h3, p, .btn, a, li, q {
   color: #424242;
   font-family: 'Lato', sans-serif;
   font-weight: regular;
@@ -33,6 +33,15 @@ h3 {
   padding-bottom: 16px;
   font-weight: 500; }
 
+q {
+  color: #B7B7B7;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 32px;
+  margin: 0px; }
+
 a {
   color: #424242;
   text-decoration: inherit;
@@ -41,7 +50,8 @@ a {
 figcaption {
   text-align: center;
   color: #B7B7B7;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  margin-bottom: 24px; }
 
 .btn {
   display: inline-block;
@@ -149,6 +159,12 @@ footer a {
   footer a:hover {
     background-color: #E0E0E0; }
 
+.page404 {
+  font-size: 100%;
+  margin-bottom: 64px;
+  margin-top: 64px;
+  text-align: center; }
+
 .fun {
   position: fixed;
   bottom: -24px;
@@ -160,10 +176,10 @@ footer a {
   margin-top: 128px;
   margin-bottom: 128px;
   max-width: 768px; }
-  .article h1, .article h2, .article p {
+  .article h1, .article h2, .article p, .article q {
     padding-bottom: 16px; }
-  .article p {
-    font-size: 1.1em; }
+  .article p, .article q {
+    font-size: 1.2em; }
   .article h2 {
     padding-top: 64px;
     font-weight: 800; }

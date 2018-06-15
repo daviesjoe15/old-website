@@ -57,7 +57,7 @@ h2 {
     padding-top: $space-m;
 }
 
-h3, p, .btn, a, li {
+h3, p, .btn, a, li, q {
     color: $color-dark;
     font-family: 'Lato', sans-serif;
     font-weight: regular;
@@ -74,6 +74,16 @@ h3 {
     font-weight: 500; 
 }
 
+q { color: $color-grey-02;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    line-height: 32px;
+    margin: 0px;
+    
+}
+
 a {
     color: $color-dark;
     text-decoration: inherit;
@@ -84,6 +94,7 @@ figcaption {
     text-align: center;
     color: $color-grey-02;
     font-size: 0.9em;
+    margin-bottom: $space-m;
 }
 
 .btn {
@@ -263,6 +274,13 @@ footer a {
 
 
 
+.page404 {
+    font-size: 100%;
+    margin-bottom: $space-l;
+    margin-top: $space-l;
+    text-align: center;
+}
+
 .fun {
     position: fixed;
     bottom: -$space-m;
@@ -283,12 +301,12 @@ footer a {
     margin-bottom: $space-xl;
     max-width: $max-width;
     
-    h1, h2, p{
+    h1, h2, p, q{
     padding-bottom: $space-s;
     }
     
-    p {
-        font-size: 1.1em;
+    p, q{
+        font-size: 1.2em;
     }
     
     h2 {
