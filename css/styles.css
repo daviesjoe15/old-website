@@ -175,11 +175,11 @@ footer a {
 .article {
   margin-top: 128px;
   margin-bottom: 128px;
-  max-width: 768px; }
+  max-width: 700px; }
   .article h1, .article h2, .article p, .article q {
     padding-bottom: 16px; }
   .article p, .article q {
-    font-size: 1.2em; }
+    font-size: 1.25em; }
   .article h2 {
     padding-top: 64px;
     font-weight: 800; }
@@ -192,21 +192,28 @@ footer a {
     margin-top: 24px;
     margin-bottom: 24px; }
 
-.next_project {
-  display: flex;
-  flex-direction: row; }
-  .next_project h2 {
+/*.next_project {
+    display: flex;
+    flex-direction: row;
+
+    
+    h2 {
     font-size: 1.4em;
-    padding-top: 8px;
-    padding-bottom: 8px; }
-  .next_project a:last-child {
-    display: none; }
-  .next_project .project {
-    margin-top: 24px;
+    padding-top: $space-xs;
+    padding-bottom: $space-xs;
+    }
+    
+    a:last-child {
+    display: none;
+    }
+    
+    .project {
+    margin-top: $space-m;
     width: inherit;
     flex-grow: 1;
-    flex-basis: 0; }
-
+    flex-basis: 0;
+    }
+}*/
 @media screen and (min-width: 600px) {
   .project {
     overflow: hidden;
@@ -231,8 +238,10 @@ footer a {
     float: right; }
   .intro {
     padding-left: 10%; }
-  .next_project a:last-child {
-    display: flex;
-    padding-left: 64px; } }
+  /*.next_project a:last-child {
+        display: flex;
+        padding-left: $space-l;
+    }
+    */ }
 
 /*# sourceMappingURL=styles.css.map */
